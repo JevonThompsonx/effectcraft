@@ -1,0 +1,10 @@
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Algorithm constants: the FNV-1a offset basis in a hashing helper and a fixed u128 in a cache-format test. Both are high-entropy hex literals, which trips generic-api-key."
+regexes = [
+  '''cbf2_9ce4_8422_2325''',
+  '''0123_4567_89ab_cdef_0011_2233_4455_6677''',
+]
